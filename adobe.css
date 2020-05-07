@@ -1,0 +1,578 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-weight: 100
+}
+#navbar{
+    background-color: rgb(24, 70, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 19px;
+    padding: 10px;
+    color: rgb(255, 255, 255)
+}
+#nav-items{
+    display:flex;
+    align-items: baseline;
+}
+.nav-list{
+    padding: 10px 20px;
+}
+.circle{border: 2px solid rgb(24, 70, 207);
+    border-radius: 50%;
+    padding: 7px 10px;
+}
+.nav-list > a{   
+    text-decoration: none;
+    color: rgba(227, 224, 240, 0.9);
+}
+#mobile{
+    padding-top: 5px;
+    margin-right:16px;
+    display: none;
+}.mobile1,.mobile2,.mobile3{
+    width:20px;
+    height: 3px;
+    background-color: rgb(243, 241, 241);
+    margin-bottom: 4px;
+}
+#second-nav {
+    width: 100%;
+    background-color:rgb(24, 70, 207) ;
+    padding: 1px 0;
+    max-width: 100%;
+    position: relative;
+}
+#second-nav  ul{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#second-nav > ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+#second-nav  a{
+    text-decoration: none;
+    color: rgba(239, 238, 245, 0.9)
+}
+#hero{
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(0, 49, 196);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.herocontent{
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 100%;
+    width:70vw;
+    color: white;
+    margin-top: -10vw;
+}
+
+.herocontent i{
+    font-size: 10px;
+    margin-left: 1vw;
+}
+
+.herobig{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 6vw;
+   font-weight: 300;
+    color: white;
+    transition: all 1s ease-in;
+    text-align: center;
+}
+.herosmall{
+    color: rgb(147, 172, 182);
+    margin-top: -3vw;
+}
+.herobutton{color: rgb(0, 49, 196);
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border-style: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#staticimage{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgb(24, 24, 233);
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.left{background: url("images/vintage.jpg");
+    width:22%;
+    background-size: cover;
+}
+.middle{background: url("images/lr.jpg");
+    width: 54%;
+    background-size: cover;
+}
+.right{background: url("images/group.jpg");
+    width: 22%;
+    margin-right: 0;
+    background-size: cover;
+}
+#create{
+    display: flex;
+    flex-direction: column;
+}
+.create-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+.createtextBig{
+    font-size: 4vw;
+    text-align: center;
+}
+.createtextsmall{
+    margin-top: -30px;
+    font-size: 1.7vw;
+    width: 70%;
+    text-align: center;
+}
+.create-img-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.create-img-row{
+
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    width:49.5%;
+    background-color: rgb(252, 252, 252);
+    height: auto;
+}
+.createimgdiv{
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    padding: 30px;
+    background-color: rgb(244, 245, 245);
+}
+.imgcreate{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: auto}
+
+.imgcreate img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.imgwrite{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    background-color: rgb(230, 234, 235);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    font-size: 2vw;
+}
+#possible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 35px 0;
+    background: linear-gradient(to bottom, rgb(230, 232, 233), rgb(253, 253, 253))
+}
+.possiblebig{
+    font-size: 6vw;
+    font-weight: 300;
+}
+.possiblesmall{
+    font-size: 20px;
+    margin-top: -30px;
+}
+.possiblebuttons{
+    display: flex;
+    justify-content: center;
+}
+.buttonsrow{
+    display: flex;
+    position: relative;
+    margin: 30px;
+}
+
+.firstbut{
+    margin-right: 5vw;
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 80px;
+    background-color: rgb(0, 49, 196);
+    color: white;
+}
+.secondbut{
+    color: rgb(65, 64, 64);
+    background-color: rgb(219, 221, 221);
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 80px;
+}
+#showcase{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 215, 218, 0.205);
+    padding: 1vw;
+    text-align: center;
+}
+.showcasetext{
+    margin-top: 20px;
+    padding:20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.showcasebig
+{
+    font-size: 4vw;
+}
+.showcasesmall{
+    font-size: 1.5vw;
+    width:80%;
+    margin-top: -24px;
+}
+.showcasegrid{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+}
+.behancediv{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    border-radius: 2px;
+
+}
+.behancediv img{
+    margin: 30px;
+     width:30%;
+     height: auto;
+}
+.griditems{
+    box-sizing: border-box;
+    width:49.5%;
+    max-width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 2px;
+    padding: 2vw;
+}
+.griditems img{
+    width:30%;
+    margin: 40px;
+    
+}
+.behancebig{
+    font-weight: 500;
+    font-size: 3vw;
+}
+.behancesmall{
+   margin-top: -10px;
+   font-size: 2vw;
+}
+.showcasebutton button{background-color: rgb(0, 49, 196);
+    color: rgb(231, 231, 236);
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border-style: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:30px;
+}
+footer{
+    background-color: rgba(0, 10, 14, 0.904);
+}
+.changebutton{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.changebutton button{
+    background-color: rgb(46, 44, 44);
+    margin-top: 40px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 80px;
+    color: white;
+    
+}
+hr{
+    text-align: center;
+    width:70%;
+    height:1px;
+    background-color: rgba(63, 65, 65, 0.877);
+    border: none;
+}
+#footerflex{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerdiv{
+    text-align: center;
+}
+.footerdiv h3{
+    color: white;
+}
+#footerflex ul{
+    text-align: center;
+    margin-left: -3vw;
+}
+#footerflex ul li{
+    list-style: none;
+    color: rgb(192, 190, 190)
+}
+
+
+@media only screen and (max-width:578px) {
+    #nav-items {
+        display: none;
+    }
+    #mobile{
+        display:block;
+    }
+    #second-nav{
+        position: relative;
+        margin-right: 200px;
+    }
+    #second-nav ul{
+        padding-right: 26px;
+    }
+    #second-nav ul li{
+        font-size: 4vw;
+    }
+    #second-nav ul li:last-child{
+        margin-left: -18px;
+    }
+    .sec{
+        display: none;
+    }
+    .herocontent{
+        width:100%;
+    }
+    #hero {
+        height: 70vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .herocontent i{
+        font-size: 10px;
+    }
+    .herobig{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        word-spacing: 2vw;
+        padding: 1vw 2vw;
+        font-size: 12vw;
+        box-sizing: border-box;
+        font-weight: 100;
+        line-height: 13vw;
+    }
+    .herosmall{
+        margin-top: -5vh;
+        font-size: 3.5vw;
+    }
+    #staticimage{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: rgb(24, 24, 233);
+        height: 150px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .firstbut{
+        margin-left: 20px;
+    }
+    .secondbut{
+        display:none;
+    }
+    .create-text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .createtextBig{
+        font-size: 9vw;
+        text-align: center;
+    }
+    .createtextsmall{
+        margin-top: -10px;
+        font-size: 4.1vw;
+        width: 90%;
+        text-align: center;
+    }
+    .create-img-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .create-img-row{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .createimgdiv{
+        box-sizing: border-box;
+        max-height:auto;
+        padding: 30px;
+        
+    }
+    .imgcreate{
+        width: 100%;
+    }
+    .imgcreate img{
+        width: 80vw;
+        height:auto;
+    }
+    .imgwrite{
+        height: auto;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .imgwrite p{
+        text-align: center;
+        width: 95%;
+        font-size: 4vw;
+        margin-top: -10px;
+    }
+    .imgwrite h4{
+        
+        text-align: center;
+        width: 95%;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .possiblebig{
+        font-size: 8vw;
+        font-weight: 300;
+    }
+    .possiblesmall{
+        font-size: 3.5vw;
+        padding: 20px;
+    }
+    #showcase{
+        padding-right:15px;
+        padding-left:15px;
+    }
+    .showcasetext{
+        margin-top: 20px;
+        padding:20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .showcasebig
+    {
+        font-size: 9vw;
+    }
+    .showcasesmall{
+        font-size: 4vw;
+        width: 100%;
+    }
+    .showcasegrid{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        justify-content: space-between;
+    }
+    #footerflex{
+        display: flex;
+        flex-direction: column;
+    }
+    #footerflex ul{
+        text-align: center;
+        margin-left: -8vw;
+    } 
+    .behancediv{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .behancediv img{
+        width:70%;
+    }
+    .griditems{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+        background-color: white;
+        padding:20px 0;
+    }
+    .griditems img{
+        width:30%;
+        margin: 40px;
+        
+    }
+    .behancebig{
+        font-weight: 500;
+        font-size: 5vw;
+    }
+    .behancesmall{
+        width:80%;
+        font-size: 4vw;
+        font-weight: 400;
+    }
+}
