@@ -121,15 +121,15 @@ body{
     max-width: 100%;
 }
 
-.left{background: url("images/vintage.jpg");
+.left{background: url("vintage.jpg");
     width:22%;
     background-size: cover;
 }
-.middle{background: url("images/lr.jpg");
+.middle{background: url("lr.jpg");
     width: 54%;
     background-size: cover;
 }
-.right{background: url("images/group.jpg");
+.right{background: url("group.jpg");
     width: 22%;
     margin-right: 0;
     background-size: cover;
